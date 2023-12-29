@@ -1,0 +1,9 @@
+# which number do you want to check?
+number = int(input())
+
+# If the number can be divided by 2 with 0 reminder.
+if number % 2 == 0:
+    print("This is an even number.")
+# Otherwise (number cannot be devided by 2 with 0 reminder).
+else:
+    print("This is an odd number.")
