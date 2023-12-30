@@ -1,5 +1,7 @@
-height = float(input()) # in meters e.g., 1.55
-weight = int(input)) # in kilogram e.g., 72
+print("welcome to the weight measuring!")
+
+height = float(input("what is your hight in cm (example: 1.55)?")) # in meters e.g., 1.55
+weight = int(input("what is your weight in kg?")) # in kilogram e.g., 72
 # Your code below this line
 bmi = weight / (height * height)
 if bmi < 18.5:
